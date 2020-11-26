@@ -9,6 +9,10 @@ import App from './App.vue'
   // Optionally install the BootstrapVue icon components plugin
   Vue.use(IconsPlugin)
 
+  // IMPORT CSS
+  import 'bootstrap/dist/css/bootstrap.css'
+  import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 //done with imports
 
 Vue.config.productionTip = false
